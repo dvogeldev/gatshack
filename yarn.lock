@@ -2,3 +2,12 @@
 # yarn lockfile v1
 
 
+tachyons-sass@^4.7.1:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/tachyons-sass/-/tachyons-sass-4.7.1.tgz#b039eaf8c633189a32f546e8e28a764cb3ee4cfb"
+  dependencies:
+    tachyons "^4.6.1"
+
+tachyons@^4.6.1:
+  version "4.7.4"
+  resolved "https://registry.yarnpkg.com/tachyons/-/tachyons-4.7.4.tgz#eca4ffa15c1f06a357f088c6d0e687fc5f0408cc"
