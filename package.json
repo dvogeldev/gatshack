@@ -5,5 +5,7 @@
   "repository": "git@github.com:flexbox/codeless",
   "author": "flexbox <dleuliette@gmail.com>",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "tachyons-sass": "^4.7.1"
+  }
 }
