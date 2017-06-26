@@ -4,11 +4,11 @@ html lang="#{data.settings.site.i18n}"
   = partial 'layouts/partial/head'
   #page-wrapper.pa0.cf.sans-serif
 
-    body class="#{page_classes} bg-blue"
-      = partial 'layouts/partial/header'
+  body class="#{page_classes} bg-blue avenir "
+    = partial 'layouts/partial/header'
 
-      == yield
+    == yield
 
-      = partial 'layouts/partial/footer'
-      = javascript_include_tag 'application'
-      = yield_content :javascripts
+    = partial 'layouts/partial/footer'
+    = javascript_include_tag 'application'
+    = yield_content :javascripts
