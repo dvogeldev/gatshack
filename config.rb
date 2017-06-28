@@ -36,7 +36,7 @@ configure :build do
 
   activate :asset_hash
   activate :gzip
-  activate :markdown_engine, :red_carpet
+#  activate :markdown_engine, :red_carpet
   activate :minify_css
   activate :minify_html, remove_input_attributes: false
   activate :minify_javascript
