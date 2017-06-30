@@ -24,9 +24,6 @@ gem 'oga',                     '~> 2.8'
 # Testing Deploy
 gem 'rake'
 
-# Markdown
-gem 'redcarpet'
-
 # Gemrat
 gem 'gemrat'
 
