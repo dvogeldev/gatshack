@@ -26,3 +26,8 @@ gem 'rake'
 
 # Markdown
 gem 'redcarpet'
+
+# Gemrat
+gem 'gemrat'
+
+gem 'middleman-dato'
