@@ -1,0 +1,7 @@
+- name: TD9 Compact 9mm with Glock&reg; Mags
+  id: td9
+  price: 1049.00
+  max_quantity: 10
+  path: products/td9
+  image:
+  description: Our 9mm AR pistol for Glock 9mm double stack mags feature last round bolt hold open and a proven closed bolt blow back action for the ultimate in reliability. Each Pistol is Cerakoted with the new Elite Series Smoke Cerakote.

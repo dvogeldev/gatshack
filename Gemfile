@@ -1,6 +1,6 @@
 # If you have OpenSSL installed, we recommend updating
 # the following line to use 'https'
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 # Core
 gem 'middleman',               '~> 4.2.0'
@@ -23,3 +23,8 @@ gem 'oga',                     '~> 2.8'
 
 # Testing Deploy
 gem 'rake'
+
+# Gemrat
+gem 'gemrat'
+
+gem 'middleman-dato'

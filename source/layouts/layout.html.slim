@@ -1,18 +1,14 @@
 doctype html
 
 html lang="#{data.settings.site.i18n}"
-  head
-    meta charset="utf-8"
-    meta http-equiv="x-ua-compatible" content="ie=edge"
-    meta name="viewport"              content="width=device-width, initial-scale=1.0"
-    = partial 'layouts/commons/meta_tags'
-    = partial 'layouts/commons/favicon'
-    = stylesheet_link_tag 'application'
-    = yield_content :head
+  = partial 'layouts/partial/head'
+  #page-wrapper.pa0.cf.sans-serif
 
-  body class="#{page_classes}"
+  body class="#{page_classes} bg-black avenir "
+    = partial 'layouts/partial/header'
 
     == yield
 
+    = partial 'layouts/partial/footer'
     = javascript_include_tag 'application'
     = yield_content :javascripts
