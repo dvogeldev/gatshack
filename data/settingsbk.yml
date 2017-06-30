@@ -1,0 +1,15 @@
+site:
+  title: 'Gatshack & Reno, NV'
+  title_separator: •
+  description: 'Gatshack is a type 07 class 02 SOT small arms manufacturer specializing in custom AR's & AK's'
+  i18n: en
+  geo:
+    placename: 'Reno'
+    position: -119.7883274;39.4832915 
+    region: US,NV
+  url: 'https://gatshack.com'
+  twitter_card_img: 'https://raw.githubusercontent.com/flexbox/codeless/master/source/favicon_base.png'
+  author: David Vogel
+
+social:
+  twitter: 'gatshackreno'
