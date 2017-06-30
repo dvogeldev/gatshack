@@ -1,10 +1,17 @@
 @charset 'utf-8';
 
+// Custom Global Colors
+$red: #A81C1C;
+$yellow: #ffba00;
+$dark-gray: #1a1a1a;
+
 // Import Sass files
 // @import 'folder/file';
 @import '../../../node_modules/tachyons-sass/tachyons.scss';
 
-body {
-  background-color: #F1F1F1;
-  text-align: center;
-}
+
+
+@media #{$breakpoint-not-small} {
+    .feature {
+        column-count: 2;
+    }}
