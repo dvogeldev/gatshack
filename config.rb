@@ -5,6 +5,7 @@ require 'slim'
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
 activate :livereload
 activate :directory_indexes
+activate :dato
 
 set :css_dir,    'assets/stylesheets'
 set :images_dir, 'assets/images'
@@ -57,16 +58,16 @@ end
 
 # Push-it to the web
 activate :deploy do |deploy|
-  deploy.deploy_method = :git
-  deploy.branch        = 'gh-pages'
-  deploy.build_before  = true # always use --no-clean options
+  # deploy.deploy_method = :git
+  # deploy.branch        = 'gh-pages'
+  # deploy.build_before  = true # always use --no-clean options
 
-  committer_app = "#{Middleman::Deploy::PACKAGE} v#{Middleman::Deploy::VERSION}"
-  commit_message = "Deployed using #{committer_app}"
+  # committer_app = "#{Middleman::Deploy::PACKAGE} v#{Middleman::Deploy::VERSION}"
+  # commit_message = "Deployed using #{committer_app}"
 
-  if ENV["TRAVIS_BUILD_NUMBER"] then
-    commit_message += " (Travis Build \##{ENV["TRAVIS_BUILD_NUMBER"]})"
-  end
+  # if ENV["TRAVIS_BUILD_NUMBER"] then
+   #  commit_message += " (Travis Build \##{ENV["TRAVIS_BUILD_NUMBER"]})"
+  # end
 
-  deploy.commit_message = commit_message
+  # deploy.commit_message = commit_message
 end
